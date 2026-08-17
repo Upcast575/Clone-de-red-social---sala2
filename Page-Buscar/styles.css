@@ -1,0 +1,14 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;/**Tipo de letra*/
+    background-color: rgb(54, 99, 184);/**Color de fondo*/
+    color: rgb(252, 252, 252);/**Color general del texto*/
+    margin: 0; /**Elimina el margen predeterminado*/
+    padding: 20px;/**espacio interno de la pagina*/
+}
+
+
+.navbar{
+    margin: 10px;
+    width: auto;
+    border-radius: 20px;
+}
