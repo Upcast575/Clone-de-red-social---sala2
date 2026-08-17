@@ -1,14 +1,24 @@
 body{
     font-family: Arial, Helvetica, sans-serif;/**Tipo de letra*/
-    background-color: rgb(54, 99, 184);/**Color de fondo*/
+    background-color: rgb(255, 255, 255);/**Color de fondo*/
     color: rgb(252, 252, 252);/**Color general del texto*/
     margin: 0; /**Elimina el margen predeterminado*/
     padding: 20px;/**espacio interno de la pagina*/
 }
 
-
 .navbar{
     margin: 10px;
-    width: auto;
     border-radius: 20px;
+    display: flex; /** Centra dentro del contenedor */
+    justify-content: center; /** Centra horizontalmente */
+    align-items: center; /** Centra verticalmente */
+    margin-bottom: 20px; /**Espacio debajo del titulo*/
 }
+
+
+/* 
+div{
+    padding: 20px;
+    margin: 0;
+}
+*/
