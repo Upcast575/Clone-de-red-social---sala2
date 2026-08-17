@@ -1,0 +1,49 @@
+body {
+    background-color: #000000;
+    color: #f5f5f5;
+}
+
+/*? Modifica el fondo de las tarjetas de Meta / Perfil */
+.card-dark {
+    background-color: #121212;
+    border-radius: 12px;
+    border: 1px solid #262626;
+}
+
+/*? Tarjetas oscuras del perfil */
+.card-dark {
+    background-color: #121212;
+    border-radius: 12px;
+    border: 1px solid #262626;
+}
+
+/*? Campos de texto oscuros */
+.form-control-dark, .form-control-dark:focus {
+    background-color: #121212;
+    border-color: #363636;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.form-control-dark:disabled {
+    background-color: #121212;
+    border-color: #262626;
+}
+
+/*? Switch personalizado */
+.form-check-input:checked {
+    background-color: #fff;
+    border-color: #110000;
+}
+
+/*? Estilos del footer */
+.footer-links a {
+    color: #a8a8a8;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
