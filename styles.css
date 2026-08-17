@@ -9,3 +9,29 @@ body {
     border-radius: 12px;
     border: 1px solid #262626;
 }
+
+/* Tarjetas oscuras del perfil */
+.card-dark {
+    background-color: #121212;
+    border-radius: 12px;
+    border: 1px solid #262626;
+}
+
+/* Campos de texto oscuros */
+.form-control-dark, .form-control-dark:focus {
+    background-color: #121212;
+    border-color: #363636;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.form-control-dark:disabled {
+    background-color: #121212;
+    border-color: #262626;
+}
+
+/* Switch personalizado */
+.form-check-input:checked {
+    background-color: #fff;
+    border-color: #fff;
+}
