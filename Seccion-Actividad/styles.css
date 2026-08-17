@@ -1,0 +1,200 @@
+:root{
+--ig-bg:#151616;
+--ig-bg-secondary:#d9d5d5;
+--ig-border:#280505;
+--ig-text:  #0c2f71;
+--ig-text-secondary:#0c368b;
+--ig-blue:#0095f6;
+--ig-hover:#051409;
+--font-active:'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif
+}
+
+body{
+    background:var(--ig-bg);
+    color:var(--ig-text);
+    font-family:var(--font-active);
+    min-height:100vh
+}
+.font-tester{
+    position:fixed;top:12px;
+    right:12px;z-index:50;
+    background:var(--ig-bg-secondary);
+    border:1px solid var(--ig-border);
+    border-radius:8px;padding:8px 10px;font-size:12px
+}
+.font-tester select{
+    background:#000;
+    color:#fff;border:1px solid var(--ig-border);
+    -radius:6px;font-size:12px
+}
+.app-shell{
+    max-width:630px;margin:auto;
+    border:0 solid var(--ig-border);
+    border-width:0 1px;min-height:100vh
+}
+.header-bar
+{border-bottom:1px solid var(--ig-border);
+    padding:14px 16px;display:flex;align-items:center;gap:16px;position:sticky;top:0;
+    background:var(--ig-bg);z-index:10
+}
+.header-bar i{
+    font-size:18px;
+    cursor:pointer
+}
+.header-bar h5{
+    margin:0;font-weight:600;
+    font-size:16px;letter-spacing:.2px
+}
+
+.tabs{
+    display:flex;
+    border-bottom:1px solid var(--ig-border)
+}
+
+.tab-item{
+    flex:1;
+    text-align:center;
+    padding:12px 0;
+    font-size:13px;
+    color:var(--ig-text-secondary);
+    font-weight:600;
+    cursor:pointer;
+    border-bottom:1px solid transparent;
+}
+.tab-item.active{
+    color:var(--ig-text);
+    border-color:var(--ig-text)
+}
+.activity-list{
+    padding:4px 0
+}
+.activity-item,
+.reply-item{
+    display:flex;
+    align-items:center;
+    gap:12px;padding:10px 16px;
+    text-decoration:none;
+    color:inherit
+}
+.activity-item:hover,.reply-item:hover{
+    background:var(--ig-hover)
+}
+.avatar,.reply-avatar{
+    width:44px;
+    height:44px;
+    border-radius:50%;
+    object-fit:cover;
+    flex-shrink:0
+}.activity-text,.reply-text{
+    flex:1;
+    min-width:0;
+    font-size:14px;
+    line-height:1.35
+}
+.username{
+    font-weight:600
+}
+.activity-text .time{
+    color:var(--ig-text-secondary);
+    margin-left:4px
+}.thumb{
+    width:44px;
+    height:44px;
+    object-fit:cover;
+    border-radius:4px;
+    flex-shrink:0
+}
+.day-separator{
+    padding:16px 16px 6px;
+    font-size:15px;
+    font-weight:700
+}.comment-text{
+    color:var(--ig-text-secondary);
+    font-weight:400
+}
+.filter-row{
+    display:flex;
+    gap:24px;overflow-x:auto;
+    padding:14px 16px;
+    border-bottom:1px solid var(--ig-border);
+    scrollbar-width:none
+}
+.filter-row::-webkit-scrollbar{
+    display:none
+}
+.filter-item{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    white-space:nowrap;
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:.3px;
+    text-transform:uppercase;
+    color:var(--ig-text-secondary);
+    cursor:pointer;
+    flex-shrink:0;
+    padding-bottom:10px;
+    border-bottom:2px solid transparent
+}
+.filter-item i{
+    font-size:15px
+}
+.filter-item.active{
+    color:var(--ig-text);
+    border-color:var(--ig-text)
+}
+.empty-state{
+    text-align:center;
+    padding:64px 32px
+}.empty-icon{
+    width:96px;
+    height:96px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 16px;
+    background:linear-gradient(135deg,#2dd4bf,#38bdf8,#818cf8);
+    padding:3px
+}
+.empty-icon-inner{
+    width:100%;
+    height:100%;
+    border-radius:50%;
+    background:var(--ig-bg);
+    display:flex;align-items:center;
+    justify-content:center
+}
+.empty-icon-inner i{
+    font-size:34px;
+    background:linear-gradient(135deg,#2dd4bf,#38bdf8,#818cf8);
+    -webkit-background-clip:text;
+    background-clip:text;
+    color:transparent
+}
+.empty-state h5{
+    font-weight:700;
+    font-size:20px;
+    margin-bottom:8px
+}
+.empty-state p{
+    color:var(--ig-text-secondary);
+    font-size:14px;margin:0
+}
+.reply-item{
+    padding:12px 16px
+}
+.reply-text .username,.reply-text .highlight{
+    font-weight:700
+}
+.reply-meta{
+    text-align:right;
+    flex-shrink:0;
+    font-size:12px;
+    color:var(--ig-text-secondary);
+    line-height:1.5;padding-left:8px
+}
+.story-src{
+    display:block
+}
