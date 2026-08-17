@@ -1,0 +1,29 @@
+/* *Centrada imagen de instagram */
+.imagen-ig{
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* *Creacion de navbar vertical */
+nav{
+    width: 60px;
+    height: 100vh;
+    background-color: #000;
+    /* border: 1px solid #333; */
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* *Agregado color blanco porque me aparecian en color azul */
+i{
+    color: white;
+}
+/* *Creacion clase icono grande para verse de igual tamaño que  */
+.icono-grande{
+    font-size: 29px;
+}
