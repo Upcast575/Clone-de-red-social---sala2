@@ -1,0 +1,12 @@
+body{
+    background-color: #1c1e21;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.image-r{
+    width: 50px;
+    height: 50px;
+}
