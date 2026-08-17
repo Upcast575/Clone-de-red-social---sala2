@@ -22,3 +22,6 @@
 # Daniela - Creacion de la pagina de reels
 # Victor - Creación de pagina principal
 # Daniel - Actividad
+
+Aslan- Creeacion la pagina de perfil
+
