@@ -1,0 +1,67 @@
+body {
+    background-color: #031d22;
+}
+
+.historia {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    padding: 2px;
+    border: 3px solid #ff006e;
+}
+
+p {
+    max-width: 85px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*? Publicacion*/
+.post {
+    width: 100%;
+    max-width: 500px;
+}
+
+.perfil {
+    width: 38px;
+    height: 38px;
+    object-fit: cover;
+}
+
+.iconos i {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.iconos i:hover {
+    color: #aaaaaa;
+}
+
+
+.pie {
+    left: 80px;
+    padding: 15px 20px;
+    background-color: #0b1015;
+    border-top: 1px solid #20252b;
+    font-size: 12px;
+}
+
+.enlaces a {
+    color: #b5bdc5;
+    text-decoration: none;
+}
+
+.enlaces a:hover {
+    color: white;
+}
+
+.texto {
+    color: #b5bdc5;
+}
+
+.mensaje {
+    background-color: #24282e;
+    padding: 10px 15px;
+    border: 1px solid #343a40;
+    border-radius: 30px;
+}
