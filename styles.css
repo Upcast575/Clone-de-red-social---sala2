@@ -1,3 +1,83 @@
+rama-Marcela
+
+
+
+
+
+
+
+
+.login{
+    width: 100%;
+    max-width: 350px;
+}
+
+.col-md-4{
+    border-left: 1px solid #dbdbdb;
+    padding-left: 40px;
+}
+
+.form-control{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.inputs-ig{
+    border-radius: 1px; #dbdbdb;
+    border-radius: 8px;
+}
+
+.párrafo1{
+    text-align: center;
+    width: 100%;
+}
+
+
+.boton-login {
+    background-color: #0064e0;
+    border-radius: 20px
+}
+
+.boton-facebook{
+    background-color: #F2F4F6;
+    border: none;
+    border-radius: 20px;
+    color: black;
+}
+
+
+.boton-crear{
+    color: #0064e0;
+    border: 1px solid #0064e0;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.logo-ig{
+    width: 70px;
+}
+
+.titulo{
+    font-size: 44px;
+    line-height: 1.2;
+}
+
+.degradado{
+    background: linear-gradient(90deg, #FF7A45, #FF0169, #D300C5);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.imagen-collage{
+    max-width: 520px;
+}
+
+.footer{
+    text-align: center;
+
 /* *Centrada imagen de instagram */
 .imagen-ig{
     /* background-color: white; */
@@ -26,4 +106,5 @@ i{
 /* *Creacion clase icono grande para verse de igual tamaño que  */
 .icono-grande{
     font-size: 29px;
+main
 }
